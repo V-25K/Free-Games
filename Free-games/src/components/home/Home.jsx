@@ -54,8 +54,6 @@ function Home() {
   function handleSearch(query) {
     if (query) {
       setSearchQuery(query);
-      setGenreQuery("");
-      setPlatformQuery("");
       setHasGenre(false);
       setHasPlatform(false);
     }
